@@ -1,0 +1,224 @@
+
+/* Responsive for Note book  */
+@media(min-width:767px) and (max-width:990px){
+    .baner{
+        padding-top: 80px;
+    }
+    .baner h1 {
+        font-size: 60px;
+    }
+    .service img {
+        margin-top:20px;
+    }
+    .attorney-item img {
+        margin-bottom: 20px;
+    }
+    .laguage h3 {
+        padding-top: 20px;
+    }
+}
+/* Responsive for tab  */
+@media(min-width:577px) and (max-width:768px){
+    .baner{
+        padding-top: 50px;
+    }
+    .baner h1 {
+        font-size: 50px;
+    }
+    .baner a i {
+        font-size: 20px;
+        color: #fff;
+        font-weight: 600;
+        margin-top: 50px;
+        padding-bottom:80px;
+    }
+    .about {
+        padding: 50px 0px;
+    }
+    .about h2 {
+        text-align: center;
+        font-size: 40px;
+        font-weight: 600;
+       
+    }
+    .about h2::after{
+        content:"";
+        left: 40%;
+    }
+    .about p {
+       text-align: center;
+       padding: 20px;
+    }
+    .about img{
+        display: block;
+        margin: 0 auto;
+    }
+    .service {
+        margin: 0px;
+        padding-top: 40px;
+    }
+    .service h2 {
+        font-size: 40px;
+    }
+    .service h3 {
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .service img {
+        margin-top:20px;
+    }
+    .service h2::after{
+        content:"";
+        left: 38%;
+    }
+    .attorney-item{
+        position: relative;
+    }
+    .attorneys h2::after {
+        content: "";
+        height: 5px;
+        width: 70px;
+        position: absolute;
+        top: -10px;
+        left: 135px;
+        background-color: #f2622c;
+    }
+    .attorneys {
+        padding:0px;
+    }
+    .attorneys .atron-img {
+        margin: 0px;
+    }
+    .attorney-item img {
+        margin-bottom: 20px;
+    }
+    #atorny_col3 ,  #atorny_col4 {
+        padding: 0 0;
+    }
+    .laguage h3 {
+        text-align: center;
+        margin-top: 30px;
+    }
+    footer p {
+        text-align: center;
+    }
+    footer ul {
+        text-align: center;
+        margin: 0;
+    }
+
+
+}
+
+/* mobile responsive */
+@media(min-width:320px) and (max-width:576px){
+    .baner{
+        padding-top:80px;
+    }
+    .baner h1 {
+        font-size: 30px;
+    }
+    .baner a i {
+        font-size: 20px;
+        color: #fff;
+        font-weight: 600;
+        padding: 50px 0px;
+    }
+    .about {
+        padding: 25px 0px;
+    }
+    .about h2 {
+        text-align: center;
+        font-size: 25px;
+        font-weight: 600;
+       
+    }
+    .about h2::after{
+        content:"";
+        left: 40%;
+    }
+    .about p {
+       text-align: center;
+       padding: 20px;
+    }
+    .about img{
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .service {
+        margin: 0px;
+        padding-top:0px;
+    }
+    .service h2 {
+        font-size: 25px;
+    }
+    .service img {
+        margin-top:20px;
+    }
+	.service-img {
+    padding-bottom: 30px;
+}
+    .service h2::after{
+        content:"";
+        left: 38%;
+    }
+    .attorneys .attorneys-content {
+        padding: 50px 0px;
+    }
+    .attorneys {
+        padding:0px;
+        text-align: center;
+    }
+    .atron-img{
+        padding-top: 0px;
+    }
+    .attorneys h2{
+        font-size: 30px;
+    }
+    .attorneys h2::after {
+        content: "";
+        height: 5px;
+        width: 70px;
+        position: absolute;
+        top: -10px;
+        left: 135px;
+        background-color: #f2622c;
+    }
+    .attorneys .atron-img {
+        margin: 0px;
+    }
+    .attorney-item img {
+        margin-bottom: 20px;
+    }
+    #atorny_col3 ,  #atorny_col4 {
+        padding: 0 0;
+    }
+	.laguage {
+    padding: 52px 0px;
+	}
+    .laguage h3 {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .laguage h2{
+        font-size: 30px;
+		margin-bottom: 5px;
+    }
+    footer p {
+        text-align: center;
+    }
+    footer ul {
+        text-align: center;
+        margin: 0;
+    }
+	.contact-us {
+    padding-top: 60px;
+	}
+	.contact-us h2 {
+    margin-bottom: 26px;
+
+	}
+
+}
+

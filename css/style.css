@@ -1,0 +1,387 @@
+/* gogle fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+/* font-family */
+/* font-family : 'Montserrat', sans-serif;
+font-family : 'Open Sans', sans-serif; */
+
+/* ===========
+ Global css
+============= */
+*{
+    padding: 0;
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+
+/* ===========
+ HEADER SECTION
+============= */
+.navbar>.container-fluid{
+    padding: 20px 0px
+}
+.navbar-nav .nav-link{
+    color: #1f4f87;
+    letter-spacing: -1px;
+    font-weight: 500;
+    padding:0px; 
+    transition: 0.3s;
+    line-height:30px; 
+}
+.navbar-nav .nav-link:hover{
+color:#f2622c;
+}
+
+nav li{
+    margin-right: 20px;
+    padding:0;
+}
+.sticky-top{
+    background-color:#f7f8f8;
+    z-index: 100;
+}
+.navbar-nav{
+    align-items:end;
+    margin-right:10px;
+}
+.navbar .nav-link.active{
+    color:#f2622c ;
+}
+
+[type=button]:not(:disabled),
+ [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    margin-right: 30px;
+    border: 1px solid #f2622c;
+   
+  
+}
+
+/* ===========
+ BANNER SECTION
+============= */
+.baner{
+    background-image: url("../img/Banner-Bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 200px;
+}
+.baner h1{
+    color: #fff;
+    font-size: 85px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.baner h1 span{
+    display: block;
+}
+.baner a i {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 50px;
+    padding: 150px 0px;
+}
+
+
+/* ==============
+ABOUT SECTION
+============= ==*/
+.about{
+padding: 100px 0px;
+
+}
+.content{
+   padding-top: 40px;
+}
+.about h2{
+    color: #1f4f87;
+    letter-spacing: -1px;
+    font-size: 38px;
+    position: relative;
+}
+.about h2::after{
+    content:"";
+    height: 5px;
+    width: 70px;
+    position: absolute;
+    top: -10px;
+    left: 0px;
+   background-color:#f2622c;
+
+}
+.about p{
+    font-size: 16px;
+    color: #9b9b98;
+}
+.about-img {
+    text-align: right;
+}
+/* ==============
+ SERVICE SECTION
+============= ==*/
+.service{
+    padding-top: 100px;
+    background-color: #f7f8f8;
+    text-align: center;
+    position: relative;
+}
+.service h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #2b2f85;
+    position: relative;
+}  
+.service h2::after{
+    content:"";
+    height: 5px;
+    width: 70px;
+    position: absolute;
+    top: -10px;
+    left: 48%;
+   background-color:#f2622c;
+}
+.service-img{
+    background-image: url("../img/service-bg.png");
+    background-repeat: no-repeat;
+    background-size: 950px;
+    background-position: right;
+    padding-bottom: 100px;
+}
+.service-item{
+    position: relative;
+   }
+.service img{
+width: 100%;
+z-index: +999;
+}
+
+.service h3{
+    color:#fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 40%    
+}
+.service a{
+    color: #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom:20%; 
+}
+
+/* ==============
+attorneys SECTION
+============= ==*/
+.attorneys{
+    padding: 100px 0px;
+    background-color:#28377e;
+}
+.attorneys .attorneys-content{
+ padding: 150px 30px;
+}
+
+.attorneys h2{
+    font-size: 45px;
+    font-weight: 700;
+    color: #fff;
+    position: relative;
+}
+.attorneys h2::after{
+    content:"";
+    height: 5px;
+    width: 70px;
+    position: absolute;
+    top: -10px;
+    left: 0;
+   background-color:#f2622c;
+
+}
+.attorneys p{
+    color:#929dcf;
+    padding: 30px 0px;
+}
+/* .attorneys p span{
+    display: none;
+} */
+.attorneys button{
+    border: none;
+    background-color: transparent;
+    color:#f2622c ;
+    font-size: 20px;
+    font-weight: 600;
+}
+.attorney-item{
+    position: relative;
+}
+.attorney-item img{
+    width: 100%;
+}
+.atron-img{
+    padding-top: 25px;
+}
+.attorneys h3{
+    color: #fff;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+}
+
+/* ==============
+LANGUAGE SECTION
+============= ==*/
+.laguage{
+    padding: 100px 0px;
+
+}
+.laguage h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    color: #2b2f85;
+    margin-bottom: 70px;
+    position: relative;
+}
+.laguage h2::after{
+    content:"";
+    height: 5px;
+    width: 70px;
+    position: absolute;
+    top: -10px;
+    left: 48%;
+   background-color:#f2622c;
+
+}
+.laguage h3{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+    color: #2b2f85;
+}
+.laguage button{
+    border: none;
+    background-color: transparent;
+    color:#f2622c ;
+    font-size: 18px;
+    font-weight: 600;
+}
+.laguage p{
+    color:#9b9b98;
+}
+/* .laguage p span{
+    display: none;
+} */
+
+
+
+/* ==============
+contact-us SECTION
+============= ==*/
+
+.contact-us{
+    padding-top: 100px;
+    background-color: #28377e;
+}
+.contact-us h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 70px;
+    position: relative;
+}
+.contact-us h2::after{
+    content:"";
+    height: 5px;
+    width: 70px;
+    position: absolute;
+    top: -10px;
+    left: 46%;
+   background-color:#f2622c;
+
+}
+.contact-us form .form-control{
+    display: block;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #9b9b98;
+    border-radius: 0px;  
+    line-height: 40px;
+    box-shadow: none;
+    color: #fff;
+}
+.contact-us form .form-control::placeholder{
+    color: #fff;
+}
+.contact-us form input:focus{
+    background-color: transparent;
+}
+
+.contact-us form label{
+    color:#fff;
+}
+.form-item{
+    position: relative
+}
+.contact-us button{
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #f2622c;
+    padding: 8px 70px;
+    border: none;
+    display: block;
+    margin: 50px auto;
+    transition: 0.4s;
+}
+.contact-us button:hover{
+    background-color: #fff;
+    color: #f2622c;
+}
+/* ==============
+footer SECTION
+============= ==*/
+footer{
+    background-color: #0c1234;
+    padding: 30px 0px;
+}
+footer p{
+    color: #929dcf;
+    margin: 0;
+}
+footer ul li{
+    display: inline;
+    margin-left: 10px;
+}
+footer ul{
+    text-align: right;
+    margin: 0;
+}
+footer ul li a{
+    color: #929dcf;
+}
+
+
+
